@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+  printf("===^^===\n");
+  printf("Welcome to hexidecimal converter\n");
+  printf("Enter a number: \n");
+
+
+  int theNumber; //declares an integer variable
+  scanf("%d", &theNumber); // acquires user input and stores
+  
+  printf("Decimal representation: %9d\n", theNumber);
+  printf("Converted to hexidecimal: %9X\n", theNumber); 
+
+  printf("===^^===\n");
+
+  return 0;
+}
